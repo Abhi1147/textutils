@@ -1,0 +1,127 @@
+body{
+    margin: auto;
+    padding: auto;
+
+}
+#logo{
+    font-size: xx-large;
+    margin-left: 2%;
+    margin-right: 4%;
+}
+#navbar{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: lightgrey;
+    color: black;
+}
+.navItem{
+    
+    font-size: larger;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.active{
+    color: brown;
+}
+#circle{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    position: absolute;
+    top: -1%;
+    left: 0%;
+    background-color: white;
+}
+#change-circle{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    position: absolute;
+    top: -1%;
+    left: 61%;
+    background-color: white;
+}
+#switch{
+    height: 21px;
+    width: 4%;
+    background-color: grey;
+    position: absolute;
+    top: 4%;
+    right: 16%;
+    border-radius: 21px;
+}
+#change-switch{
+    height: 21px;
+    width: 4%;
+    background-color: #005394;
+    position: absolute;
+    top: 4%;
+    right: 16%;
+    border-radius: 21px;
+}
+#mode{
+    position: absolute;
+    top: 4%;
+    right: 8%;
+    font-size: large;
+}
+#home-h1{
+    text-align: center;
+    margin-top: 6%;
+    font-family: sans-serif;
+}
+#home-p{
+    font-family: sans-serif;
+    margin-left: 5%;
+    font-weight: bolder;
+}
+textarea{
+    height: 30vh;
+    width: 80vw;
+    margin-left: 5%;
+    border: 2px solid grey;
+    border-radius: 8px;
+}
+.button{
+    height: 50px;
+    width: fit-content;
+    color: whitesmoke;
+    border-radius:4px;
+    margin-right: 2%;
+    font-size: large;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+#about{
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+#about-heading{
+    font-family: sans-serif;
+    margin-left: 5%;
+    font-size: x-large;
+    margin-bottom: 2%;
+}
+#about-content{
+    font-family: sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: larger;
+}
+#contact-heading{
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+.contact-detail{
+    font-family: sans-serif;
+    text-align: center;
+}
